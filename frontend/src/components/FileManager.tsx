@@ -5,7 +5,7 @@ const FileManager = () => {
   const [files, setFiles] = useState([]);
   const [editingId, setEditingId] = useState(null);
   const [editName, setEditName] = useState('');
-  const API_URL = 'http://localhost:5001';
+  const API_URL = 'http://localhost:5000';
 
   useEffect(() => {
     fetchFiles();
